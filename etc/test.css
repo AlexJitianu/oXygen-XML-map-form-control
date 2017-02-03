@@ -1,0 +1,13 @@
+* {
+    display:block;
+}
+
+root {
+    display:block;
+    content: oxy_editor(
+            saHeavyFormControlClassName , "com.oxygenxml.samples.jfx.GoogleMapFormControl",
+            lat, "37.39822",
+            lng,"-121.9643936",
+            href, oxy_url(oxy_base-uri() , attr(href)));
+    margin-left:2em;
+}
