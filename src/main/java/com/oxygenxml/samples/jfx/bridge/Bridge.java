@@ -75,10 +75,6 @@ public class Bridge {
         try {
           ctrl.delete(context.getElem().getStartOffset() + 1, context.getElem().getEndOffset());
           ctrl.insertText(context.getElem().getStartOffset() + 1, value);
-//        ctrl.setAttribute(
-//            name, 
-//            new AttrValue(value), 
-//            context.getElem());
         } finally {
           ctrl.endCompoundEdit();
         }
