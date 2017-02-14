@@ -1,0 +1,4 @@
+address {
+   content: oxy_editor(
+        saHeavyFormControlClassName , "com.oxygenxml.samples.jfx.GoogleMapFormControl");
+}
